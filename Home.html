@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic8Ball</title>
+    <link rel="stylesheet" href="HomeStyle.css">
+    <link rel="stylesheet" href="./bootstrap4-offline-docs/dist/css/bootstrap.min.css">
+</head>
+
+
+<body>
+
+    <div id="main">
+        <div id="ball8" class="mb-5">
+            <div id="innerBall">
+                <div id="answer">
+                    <h1 class="display-1" ><b>8</b></h1>
+                </div>
+                <div id="newAnswer"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+<div id="questionArea">
+    <div>
+        <input type="text" aria-required="true" class="mx-5 text-center" placeholder="Ask Question To Receive Answer"
+            id="input" >
+            </div>
+        <div >
+            <button class="btn btn-secondary mt-2" type="button" id="button-addon2" onclick="answerQuestion()" >Ask Away</button>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./bootstrap4-offline-docs/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
